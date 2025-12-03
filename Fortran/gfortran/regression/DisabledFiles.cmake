@@ -1201,6 +1201,9 @@ file(GLOB FAILING_FILES CONFIGURE_DEPENDS
   iso_c_binding_param_1.f90
   iso_fortran_env_6.f90
 
+  # Tests that generate an error but different from the one in flang 
+  pr119836_2.f90
+
   # Tests that are not errors, and compile just fine with flang
   constant_shape.f90
   continuation_2.f90
